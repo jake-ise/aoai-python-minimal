@@ -1,6 +1,6 @@
 # Python AOAI Example
 
-This is a minimal exapmle of calling an Azure Open AI endpoint from Python.
+This is a minimal example of calling an Azure Open AI endpoint from Python.
 
 # Running
 
