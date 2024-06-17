@@ -4,7 +4,7 @@ This is a minimal example of calling an Azure Open AI endpoint from Python.
 
 # Running
 
-- Copy `.env.example` to a file named `.env` and ddd your AOAI credentials to that file.
+- Copy `.env.example` to a file named `.env` and add your AOAI credentials to that file.
 
 
 - Install the python requirements listed in `requirements.txt`
