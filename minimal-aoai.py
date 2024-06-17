@@ -5,9 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 api_key = os.getenv("AZURE_OPENAI_API_KEY")
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
-
-model = "gpt-35-turbo"
-api_version = "2024-03-01-preview"
+model = os.getenv("AZURE_OPENAI_MODEL")
+api_version = os.getenv("AZURE_OPENAI_API_VERSION")
 
 client = AzureOpenAI(
     api_key=api_key,
